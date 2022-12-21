@@ -45,7 +45,8 @@ func isPrintable(b byte) bool {
 		// only is it relatively common, but there are also a
 		// handful of CA certificates that contain it. At least
 		// one of which will not expire until 2027.
-		b == '&'
+		b == '&' ||
+		b == '_'
 }
 
 // parseASN1String parses the ASN.1 string types T61String, PrintableString,
