@@ -1,4 +1,4 @@
-module github.com/emmansun/gmsm
+module github.com/initLijing/gmsm
 
 go 1.16
 
