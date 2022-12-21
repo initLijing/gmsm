@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/emmansun/gmsm/padding"
-	"github.com/emmansun/gmsm/sm4"
+	"github.com/initLijing/gmsm/padding"
+	"github.com/initLijing/gmsm/sm4"
 )
 
 var cbcSM4Tests = []struct {

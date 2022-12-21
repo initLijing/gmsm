@@ -13,8 +13,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/emmansun/gmsm/sm2"
-	"github.com/emmansun/gmsm/sm9"
+	"github.com/initLijing/gmsm/sm2"
+	"github.com/initLijing/gmsm/sm9"
 )
 
 // Generated using:

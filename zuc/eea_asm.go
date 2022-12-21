@@ -4,7 +4,7 @@
 package zuc
 
 import (
-	"github.com/emmansun/gmsm/internal/subtle"
+	"github.com/initLijing/gmsm/internal/subtle"
 )
 
 //go:noescape

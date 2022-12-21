@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/emmansun/gmsm/sm3"
+	"github.com/initLijing/gmsm/sm3"
 )
 
 func TestKdf(t *testing.T) {

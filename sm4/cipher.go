@@ -5,7 +5,7 @@ import (
 	"crypto/cipher"
 	"fmt"
 
-	"github.com/emmansun/gmsm/internal/alias"
+	"github.com/initLijing/gmsm/internal/alias"
 )
 
 // BlockSize the sm4 block size in bytes.

@@ -12,7 +12,7 @@ package sm2ec
 import (
 	"crypto/subtle"
 	"errors"
-	"github.com/emmansun/gmsm/internal/sm2ec/fiat"
+	"github.com/initLijing/gmsm/internal/sm2ec/fiat"
 	"sync"
 )
 

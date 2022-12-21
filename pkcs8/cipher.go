@@ -7,7 +7,7 @@ import (
 	"encoding/asn1"
 	"errors"
 
-	"github.com/emmansun/gmsm/padding"
+	"github.com/initLijing/gmsm/padding"
 )
 
 func genRandom(len int) ([]byte, error) {

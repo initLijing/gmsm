@@ -6,8 +6,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/emmansun/gmsm/internal/alias"
-	"github.com/emmansun/gmsm/internal/subtle"
+	"github.com/initLijing/gmsm/internal/alias"
+	"github.com/initLijing/gmsm/internal/subtle"
 )
 
 const GF128_FDBK byte = 0x87

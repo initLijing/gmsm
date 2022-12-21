@@ -5,8 +5,8 @@ import (
 	"crypto/cipher"
 	"testing"
 
-	smcipher "github.com/emmansun/gmsm/cipher"
-	"github.com/emmansun/gmsm/sm4"
+	smcipher "github.com/initLijing/gmsm/cipher"
+	"github.com/initLijing/gmsm/sm4"
 )
 
 func benchmarkCBCEncrypt1K(b *testing.B, block cipher.Block) {

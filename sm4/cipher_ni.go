@@ -6,7 +6,7 @@ package sm4
 import (
 	"crypto/cipher"
 
-	"github.com/emmansun/gmsm/internal/alias"
+	"github.com/initLijing/gmsm/internal/alias"
 )
 
 type sm4CipherNI struct {

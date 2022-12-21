@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	_sm2ec "github.com/emmansun/gmsm/sm2/sm2ec"
+	_sm2ec "github.com/initLijing/gmsm/sm2/sm2ec"
 )
 
 var curves = []struct {
@@ -140,7 +140,7 @@ const tmplNISTEC = `// Copyright 2022 The Go Authors. All rights reserved.
 package sm2ec
 
 import (
-	"github.com/emmansun/gmsm/internal/sm2ec/fiat"
+	"github.com/initLijing/gmsm/internal/sm2ec/fiat"
 	"crypto/subtle"
 	"errors"
 	"sync"

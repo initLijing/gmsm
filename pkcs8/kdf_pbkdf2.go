@@ -13,7 +13,7 @@ import (
 	"errors"
 	"hash"
 
-	"github.com/emmansun/gmsm/sm3"
+	"github.com/initLijing/gmsm/sm3"
 	"golang.org/x/crypto/pbkdf2"
 )
 

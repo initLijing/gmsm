@@ -12,7 +12,7 @@
 
 本项目(gmsm)不提供任何形式的保证。所有与使用本项目(gmsm)软件库及源代码相关的直接或间接风险均由用户自行承担。本项目(gmsm)提供的所有代码，并不对性能、适用性、适销性及其他方面提供任何保证。
 
-本项目(gmsm)实现的内容可能包含不准确性或错误，我们不对内容的准确性进行保证。如果您发现本项目(gmsm)内容包含错误，请直接提交错误至[issue tracker](https://github.com/emmansun/gmsm/issues)，或者提交代码至[pull requests](https://github.com/emmansun/gmsm/pulls)。
+本项目(gmsm)实现的内容可能包含不准确性或错误，我们不对内容的准确性进行保证。如果您发现本项目(gmsm)内容包含错误，请直接提交错误至[issue tracker](https://github.com/initLijing/gmsm/issues)，或者提交代码至[pull requests](https://github.com/initLijing/gmsm/pulls)。
 
 ## 您的行为
 

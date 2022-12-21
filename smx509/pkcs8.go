@@ -7,9 +7,9 @@ import (
 	"encoding/asn1"
 	"errors"
 
-	"github.com/emmansun/gmsm/ecdh"
-	"github.com/emmansun/gmsm/sm2"
-	"github.com/emmansun/gmsm/sm9"
+	"github.com/initLijing/gmsm/ecdh"
+	"github.com/initLijing/gmsm/sm2"
+	"github.com/initLijing/gmsm/sm9"
 )
 
 var (

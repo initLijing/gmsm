@@ -6,8 +6,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/emmansun/gmsm/internal/subtle"
-	"github.com/emmansun/gmsm/sm4"
+	"github.com/initLijing/gmsm/internal/subtle"
+	"github.com/initLijing/gmsm/sm4"
 )
 
 type CtrDrbg struct {

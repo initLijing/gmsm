@@ -5,7 +5,7 @@ import (
 	"crypto/aes"
 	"testing"
 
-	"github.com/emmansun/gmsm/cipher"
+	"github.com/initLijing/gmsm/cipher"
 )
 
 // These test vectors have been taken from IEEE P1619/D16, Annex B.

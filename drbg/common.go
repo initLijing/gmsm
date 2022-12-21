@@ -8,8 +8,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/emmansun/gmsm/sm3"
-	"github.com/emmansun/gmsm/sm4"
+	"github.com/initLijing/gmsm/sm3"
+	"github.com/initLijing/gmsm/sm4"
 )
 
 const DRBG_RESEED_COUNTER_INTERVAL_LEVEL_TEST uint64 = 8

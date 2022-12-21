@@ -9,7 +9,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/emmansun/gmsm/sm3"
+	"github.com/initLijing/gmsm/sm3"
 )
 
 type CurveParams struct {

@@ -3,7 +3,7 @@ package padding
 import (
 	"errors"
 
-	"github.com/emmansun/gmsm/internal/alias"
+	"github.com/initLijing/gmsm/internal/alias"
 )
 
 // https://www.ibm.com/docs/en/linux-on-systems?topic=processes-ansi-x923-cipher-block-chaining

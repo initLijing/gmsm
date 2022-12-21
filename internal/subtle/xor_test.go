@@ -7,7 +7,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/emmansun/gmsm/internal/subtle"
+	"github.com/initLijing/gmsm/internal/subtle"
 )
 
 func TestXORBytes(t *testing.T) {

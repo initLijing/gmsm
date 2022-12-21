@@ -219,11 +219,11 @@ func TestFuzz(t *testing.T) {
 		xx2, yy2 := g1Generic.ScalarMult(x2, y2, scalar2[:])
 
 		if x.Cmp(x2) != 0 || y.Cmp(y2) != 0 {
-			t.Fatalf("ScalarBaseMult does not match reference result with scalar: %x, please report this error to https://github.com/emmansun/gmsm/issues", scalar1)
+			t.Fatalf("ScalarBaseMult does not match reference result with scalar: %x, please report this error to https://github.com/initLijing/gmsm/issues", scalar1)
 		}
 
 		if xx.Cmp(xx2) != 0 || yy.Cmp(yy2) != 0 {
-			t.Fatalf("ScalarMult does not match reference result with scalars: %x and %x, please report this error to https://github.com/emmansun/gmsm/issues", scalar1, scalar2)
+			t.Fatalf("ScalarMult does not match reference result with scalars: %x and %x, please report this error to https://github.com/initLijing/gmsm/issues", scalar1, scalar2)
 		}
 	}
 }

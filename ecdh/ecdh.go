@@ -9,8 +9,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/emmansun/gmsm/kdf"
-	"github.com/emmansun/gmsm/sm3"
+	"github.com/initLijing/gmsm/kdf"
+	"github.com/initLijing/gmsm/sm3"
 )
 
 type Curve interface {

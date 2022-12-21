@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/emmansun/gmsm/cipher"
-	"github.com/emmansun/gmsm/sm4"
+	"github.com/initLijing/gmsm/cipher"
+	"github.com/initLijing/gmsm/sm4"
 )
 
 var xtsTestVectors = []struct {

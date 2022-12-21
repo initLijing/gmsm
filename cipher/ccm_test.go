@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/emmansun/gmsm/cipher"
+	"github.com/initLijing/gmsm/cipher"
 )
 
 // https://tools.ietf.org/html/rfc3610, 8. Test Vectors

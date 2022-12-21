@@ -7,7 +7,7 @@ import (
 	"crypto/cipher"
 	"crypto/subtle"
 
-	"github.com/emmansun/gmsm/internal/alias"
+	"github.com/initLijing/gmsm/internal/alias"
 )
 
 //go:noescape

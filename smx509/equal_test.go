@@ -5,7 +5,7 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/emmansun/gmsm/sm2"
+	"github.com/initLijing/gmsm/sm2"
 )
 
 func TestEqual(t *testing.T) {

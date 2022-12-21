@@ -3,7 +3,7 @@ package pkcs8
 import (
 	"encoding/asn1"
 
-	"github.com/emmansun/gmsm/sm4"
+	"github.com/initLijing/gmsm/sm4"
 )
 
 var (

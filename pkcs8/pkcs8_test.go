@@ -10,9 +10,9 @@ import (
 	"encoding/pem"
 	"testing"
 
-	"github.com/emmansun/gmsm/pkcs8"
-	"github.com/emmansun/gmsm/sm2"
-	"github.com/emmansun/gmsm/sm9"
+	"github.com/initLijing/gmsm/pkcs8"
+	"github.com/initLijing/gmsm/sm2"
+	"github.com/initLijing/gmsm/sm9"
 )
 
 const rsa2048 = `-----BEGIN PRIVATE KEY-----

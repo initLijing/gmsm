@@ -6,7 +6,7 @@ import (
 	"hash"
 	"time"
 
-	"github.com/emmansun/gmsm/sm3"
+	"github.com/initLijing/gmsm/sm3"
 )
 
 const HASH_DRBG_SEED_SIZE = 55

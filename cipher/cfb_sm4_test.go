@@ -7,7 +7,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/emmansun/gmsm/sm4"
+	"github.com/initLijing/gmsm/sm4"
 )
 
 var cfbTests = []struct {

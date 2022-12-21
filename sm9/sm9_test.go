@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/emmansun/gmsm/internal/bigmod"
-	"github.com/emmansun/gmsm/internal/subtle"
-	"github.com/emmansun/gmsm/kdf"
-	"github.com/emmansun/gmsm/sm3"
-	"github.com/emmansun/gmsm/sm9/bn256"
+	"github.com/initLijing/gmsm/internal/bigmod"
+	"github.com/initLijing/gmsm/internal/subtle"
+	"github.com/initLijing/gmsm/kdf"
+	"github.com/initLijing/gmsm/sm3"
+	"github.com/initLijing/gmsm/sm9/bn256"
 )
 
 func bigFromHex(s string) *big.Int {

@@ -6,7 +6,7 @@ package sm2ec
 import (
 	"errors"
 
-	"github.com/emmansun/gmsm/internal/sm2ec/fiat"
+	"github.com/initLijing/gmsm/internal/sm2ec/fiat"
 )
 
 // P256OrdInverse, sets out to in⁻¹ mod org(G). If in is zero, out will be zero.

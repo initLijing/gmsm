@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	smcipher "github.com/emmansun/gmsm/cipher"
-	"github.com/emmansun/gmsm/sm4"
+	smcipher "github.com/initLijing/gmsm/cipher"
+	"github.com/initLijing/gmsm/sm4"
 )
 
 var sm4CCMTests = []struct {

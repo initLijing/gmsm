@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emmansun/gmsm/sm2"
+	"github.com/initLijing/gmsm/sm2"
 )
 
 func TestMarshalInvalidPublicKey(t *testing.T) {

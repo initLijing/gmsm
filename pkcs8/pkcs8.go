@@ -16,10 +16,10 @@ import (
 	"hash"
 	"strconv"
 
-	"github.com/emmansun/gmsm/sm2"
-	"github.com/emmansun/gmsm/sm3"
-	"github.com/emmansun/gmsm/sm9"
-	"github.com/emmansun/gmsm/smx509"
+	"github.com/initLijing/gmsm/sm2"
+	"github.com/initLijing/gmsm/sm3"
+	"github.com/initLijing/gmsm/sm9"
+	"github.com/initLijing/gmsm/smx509"
 )
 
 // Hash identifies a cryptographic hash function that is implemented in another

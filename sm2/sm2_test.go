@@ -14,8 +14,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/emmansun/gmsm/sm2/sm2ec"
-	"github.com/emmansun/gmsm/sm3"
+	"github.com/initLijing/gmsm/sm2/sm2ec"
+	"github.com/initLijing/gmsm/sm3"
 	"golang.org/x/crypto/cryptobyte"
 	"golang.org/x/crypto/cryptobyte/asn1"
 )

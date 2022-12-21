@@ -2,7 +2,7 @@
 
     goos: windows
     goarch: amd64
-    pkg: github.com/emmansun/gmsm/zuc
+    pkg: github.com/initLijing/gmsm/zuc
     cpu: Intel(R) Core(TM) i5-9500 CPU @ 3.00GHz
     BenchmarkEncrypt1K-6   	   30052	     39131 ns/op	  26.04 MB/s
     BenchmarkEncrypt8K-6   	    3853	    310722 ns/op	  26.35 MB/s
@@ -11,7 +11,7 @@
 
     goos: windows
     goarch: amd64
-    pkg: github.com/emmansun/gmsm/zuc
+    pkg: github.com/initLijing/gmsm/zuc
     cpu: Intel(R) Core(TM) i5-9500 CPU @ 3.00GHz
     BenchmarkEncrypt1K-6   	   41754	     26916 ns/op	  37.86 MB/s
     BenchmarkEncrypt8K-6   	    5290	    215252 ns/op	  38.03 MB/s
@@ -19,7 +19,7 @@
 ## Performance after delay mod & lfsr array copy & merge sbox0/sbox1 (sbox size from 0.5k to 128k, so i do not commit it):
     goos: windows
     goarch: amd64
-    pkg: github.com/emmansun/gmsm/zuc
+    pkg: github.com/initLijing/gmsm/zuc
     cpu: Intel(R) Core(TM) i5-9500 CPU @ 3.00GHz
     BenchmarkEncrypt1K-6   	   49195	     23710 ns/op	  42.98 MB/s
     BenchmarkEncrypt8K-6   	    6000	    191255 ns/op	  42.81 MB/s
@@ -51,7 +51,7 @@ func (s *zucState32) f32(x0, x1, x2 uint32) uint32 {
 ## EEA Performance with AMD64 SIMD & AESNI:
     goos: windows
     goarch: amd64
-    pkg: github.com/emmansun/gmsm/zuc
+    pkg: github.com/initLijing/gmsm/zuc
     cpu: Intel(R) Core(TM) i5-9500 CPU @ 3.00GHz
     BenchmarkEncrypt1K-6   	  409755	      2802 ns/op	 363.62 MB/s
     BenchmarkEncrypt8K-6   	   54120	     22413 ns/op	 365.28 MB/s
@@ -59,7 +59,7 @@ func (s *zucState32) f32(x0, x1, x2 uint32) uint32 {
 ## EIA Performance with AMD64 SIMD & AESNI & CLMUL:
     goos: windows
     goarch: amd64
-    pkg: github.com/emmansun/gmsm/zuc
+    pkg: github.com/initLijing/gmsm/zuc
     cpu: Intel(R) Core(TM) i5-9500 CPU @ 3.00GHz
     BenchmarkHash1K-6   	  317750	      3833 ns/op	 267.13 MB/s
     BenchmarkHash8K-6   	   40460	     28921 ns/op	 283.26 MB/s

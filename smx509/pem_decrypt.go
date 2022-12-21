@@ -19,7 +19,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/emmansun/gmsm/sm4"
+	"github.com/initLijing/gmsm/sm4"
 )
 
 type PEMCipher int

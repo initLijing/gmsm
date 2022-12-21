@@ -5,7 +5,7 @@ import (
 	"errors"
 	"math/big"
 
-	_sm2ec "github.com/emmansun/gmsm/internal/sm2ec"
+	_sm2ec "github.com/initLijing/gmsm/internal/sm2ec"
 )
 
 type sm2Curve struct {

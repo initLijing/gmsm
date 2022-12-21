@@ -8,8 +8,8 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/emmansun/gmsm/internal/bigmod"
-	"github.com/emmansun/gmsm/sm9/bn256"
+	"github.com/initLijing/gmsm/internal/bigmod"
+	"github.com/initLijing/gmsm/sm9/bn256"
 	"golang.org/x/crypto/cryptobyte"
 	cryptobyte_asn1 "golang.org/x/crypto/cryptobyte/asn1"
 )
